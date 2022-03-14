@@ -16,7 +16,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:contentDescription="@string/icon_image_view_content_description"
-        android:src="@drawable/ic_launcher"/>
+        android:saveEnabled="false"
+        android:src="@drawable/ic_launcher" />
 
     <EditText
         android:id="@+id/username_edit_text"
@@ -55,7 +56,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/ok_button_content"/>
+            android:saveEnabled="false"
+            android:text="@string/ok_button_content" />
 
         <Space
             android:layout_width="0dp"
